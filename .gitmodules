@@ -1,3 +1,9 @@
 [submodule "pack/extra-colors/opt/molokai"]
 	path = pack/extra-colors/opt/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "pack/Git/start/vim-gitgutter"]
+	path = pack/Git/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack/Git/start/vim-fugitive"]
+	path = pack/Git/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
