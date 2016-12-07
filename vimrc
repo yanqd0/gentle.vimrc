@@ -7,7 +7,11 @@ let mapleader=","                   " Use ',' instead of default '\'
 syntax on                           " Open the syntax highlight
 set background=dark                 " Dark the screen
 set t_Co=256                        " To support many colorscheme
+try
 colorscheme molokai
+catch
+colorscheme desert
+endtry
 
 " View {{{
 
