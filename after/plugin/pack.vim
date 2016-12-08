@@ -17,6 +17,24 @@ if s:gitgutter
 endif
 " }}}
 
+" Snippets {{{
+try
+    let s:UltiSnips = g:UltiSnipsEnableSnipMate
+    let s:UltiSnips = 1
+catch
+    let s:UltiSnips = 0
+endtry
+
+if s:UltiSnips
+    noremap <leader>us :UltiSnipsEdit<CR>
+    let g:UltiSnipsEditSplit = 'vertical'
+    let g:UltiSnipsNoPythonWarning = 1
+    let g:UltiSnipsSnippetsDir = $HOME."/.vim/.Snippets"
+    let g:UltiSnipsSnippetDirectories = [".Snippets", "UltiSnips"]
+    " Local snippets directory is `.Snippets`
+    " Remote snippets directory is `UltiSnips`, provided by snippets-for-vim
+endif
+" }}}
 
 " vim: set shiftwidth=4 softtabstop=-1 expandtab:
 " vim: foldmethod=marker foldmarker={{{,}}} foldenable:
