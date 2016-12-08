@@ -2,16 +2,24 @@
 
 set nocompatible                    " Be iMproved, not Vi compatible
 let mapleader=","                   " Use ',' instead of default '\'
+filetype plugin indent on           " Plugins required!
+
+" Before {{{
+if filereadable(expand('~/.vim/before.vimrc'))
+    source ~/.vim/before.vimrc
+endif
+" }}}
 
 " colors {{{
 syntax on                           " Open the syntax highlight
 set background=dark                 " Dark the screen
 set t_Co=256                        " To support many colorscheme
 try
-colorscheme molokai
+    colorscheme molokai
 catch
-colorscheme desert
+    colorscheme desert
 endtry
+" }}}
 
 " View {{{
 
