@@ -114,6 +114,9 @@ endif
 " }}}
 
 " Git {{{
+
+" The command git is necessary in system.
+
 try
     let s:gitgutter = g:loaded_gitgutter
 catch
@@ -131,6 +134,9 @@ endif
 " }}}
 
 " Snippets {{{
+
+" Python 2.7.x or 3.x is necessary in system.
+
 try
     let s:UltiSnips = g:UltiSnipsEnableSnipMate
     let s:UltiSnips = 1
