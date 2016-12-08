@@ -13,3 +13,21 @@
 [submodule "pack/Snippets/start/snippets-for-vim"]
 	path = pack/Snippets/start/snippets-for-vim
 	url = https://github.com/yanqd0/snippets-for-vim.git
+[submodule "pack/Navigate/start/nerdtree"]
+	path = pack/Navigate/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/Navigate/start/ctrlp.vim"]
+	path = pack/Navigate/start/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "pack/Navigate/start/ctrlp-funky"]
+	path = pack/Navigate/start/ctrlp-funky
+	url = https://github.com/tacahiroy/ctrlp-funky.git
+[submodule "pack/Navigate/start/gundo.vim"]
+	path = pack/Navigate/start/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "pack/Navigate/start/TaskList.vim"]
+	path = pack/Navigate/start/TaskList.vim
+	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "pack/Navigate/start/tagbar"]
+	path = pack/Navigate/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
