@@ -1,5 +1,11 @@
 """ The config of packages under pack
 
+" extra-colors {{{
+
+" molokai
+
+" }}}
+
 " Navigate {{{
 
 " ctrlp {{{
@@ -115,8 +121,9 @@ endif
 
 " Git {{{
 
-" The command git is necessary in system.
+" Note: The command git is necessary in system.
 
+" vim-gitgutter {{{
 try
     let s:gitgutter = g:loaded_gitgutter
 catch
@@ -133,10 +140,15 @@ if s:gitgutter
 endif
 " }}}
 
+" vim-fugitive
+
+" }}}
+
 " Snippets {{{
 
-" Python 2.7.x or 3.x is necessary in system.
+" Note: Python 2.7.x or 3.x is necessary in system.
 
+" UltiSnips {{{
 try
     let s:UltiSnips = g:UltiSnipsEnableSnipMate
     let s:UltiSnips = 1
@@ -153,6 +165,10 @@ if s:UltiSnips
     " Local snippets directory is `.Snippets`
     " Remote snippets directory is `UltiSnips`, provided by snippets-for-vim
 endif
+" }}}
+
+" snippets-for-vim
+
 " }}}
 
 " vim: set shiftwidth=4 softtabstop=-1 expandtab:
