@@ -142,9 +142,9 @@ endif
 
 " delimitMate {{{
 try
-    s:DelimitMate = g:loaded_delimitMate
+    let s:DelimitMate = g:loaded_delimitMate
 catch
-    s:DelimitMate = 0
+    let s:DelimitMate = 0
 endtry
 
 if s:DelimitMate
