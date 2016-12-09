@@ -119,6 +119,43 @@ endif
 
 " }}}
 
+" Move {{{
+" TODO: 2 plugins, since 2016-12-09
+" Plugin 'yanqd0/vim-easymotion'
+" Plugin 'kshenoy/vim-signature'
+" }}}
+
+" Input {{{
+" TODO: 4 plugins to be added, since 2016-12-09
+" Plugin 'Raimondi/delimitMate'
+" Plugin 'tpope/vim-surround'
+" Plugin 'tpope/vim-repeat'
+" Plugin 'godlygeek/tabular'
+" }}}
+
+" Comment {{{
+" TODO: 2 plugins to be added, since 2016-12-09
+" Plugin 'scrooloose/nerdcommenter'
+" Plugin 'tpope/vim-commentary'
+" }}}
+
+" Completion {{{
+" TODO: Choose, since 2016-12-09
+" YouCompleteMe is too heavy.
+" Plugin 'ervandew/supertab'
+" Plugin 'Shougo/neocomplcache.vim'
+" }}}
+
+" Syntax-check {{{
+" TODO: 1 plugin to be added, since 2016-12-09
+" Plugin 'scrooloose/syntastic'
+" }}}
+
+" Status-line {{{
+" TODO: 1 plugin, since 2016-12-09
+" Plugin 'bling/vim-airline'
+" }}}
+
 " Git {{{
 
 " Note: The command git is necessary in system.
@@ -171,6 +208,28 @@ endif
 
 " }}}
 
+" Golang {{{
+" TODO: 2 plugins to be added, since 2016-12-09
+" Plugin 'fatih/vim-go'
+" Plugin 'nsf/gocode'
+" }}}
+
+" HTML {{{
+" TODO: 1 plugin, since 2016-12-09
+" Plugin 'gorodinskiy/vim-coloresque'
+" }}}
+
+" csv {{{
+" TODO: 1 plugin, since 2016-12-09
+" Plugin 'chrisbra/csv.vim'
+" }}}
+
+" Vimperator {{{
+" TODO: 1 plugin, since 2016-12-09
+" Plugin 'superbrothers/vim-vimperator'
+" }}}
+
+
 " vim: set shiftwidth=4 softtabstop=-1 expandtab:
-" vim: foldmethod=marker foldmarker={{{,}}} foldenable:
+" vim: foldenable foldmethod=marker foldmarker={{{,}}} foldminlines=2:
 " vim: set textwidth=80 colorcolumn=80:
