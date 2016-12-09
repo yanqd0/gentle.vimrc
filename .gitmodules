@@ -37,3 +37,15 @@
 [submodule "pack/Move/start/vim-signature"]
 	path = pack/Move/start/vim-signature
 	url = https://github.com/kshenoy/vim-signature.git
+[submodule "pack/Input/start/delimitMate"]
+	path = pack/Input/start/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "pack/Input/start/vim-surround"]
+	path = pack/Input/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/Input/start/vim-repeat"]
+	path = pack/Input/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/Input/start/tabular"]
+	path = pack/Input/start/tabular
+	url = https://github.com/godlygeek/tabular.git

@@ -139,11 +139,30 @@ endif
 " }}}
 
 " Input {{{
-" TODO: 4 plugins to be added, since 2016-12-09
-" Plugin 'Raimondi/delimitMate'
-" Plugin 'tpope/vim-surround'
-" Plugin 'tpope/vim-repeat'
-" Plugin 'godlygeek/tabular'
+
+" delimitMate {{{
+try
+    s:DelimitMate = g:loaded_delimitMate
+catch
+    s:DelimitMate = 0
+endtry
+
+if s:DelimitMate
+    let delimitMate_expand_cr = 1       " <CR> complete a line
+    let delimitMate_expand_space = 1    " <Space> complete another space behind
+    let delimitMate_jump_expansion = 1  " Jump can cross lines
+    let delimitMate_excluded_ft = "mail,txt"
+    autocmd FileType vim,html,xml
+                \ let b:delimitMate_matchpairs = "(:),[:],{:},<:>"
+endif
+" }}}
+
+" vim-surround
+
+" vim-repeat
+
+" tabular
+
 " }}}
 
 " Comment {{{
