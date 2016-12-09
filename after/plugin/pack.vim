@@ -181,8 +181,27 @@ endif
 " }}}
 
 " Syntax-check {{{
-" TODO: 1 plugin to be added, since 2016-12-09
-" Plugin 'scrooloose/syntastic'
+
+" syntastic {{{
+try
+    let s:Syntastic = g:loaded_syntastic_plugin
+catch
+    let s:Syntastic = 0
+endif
+
+if s:Syntastic
+    noremap <silent> <F4> :SyntasticToggleMode<CR>
+    noremap <silent> <C-F4> :SyntasticCheck<CR>
+    set statusline+=%#warningmsg#
+    set statusline+=%{SyntasticStatuslineFlag()}
+    set statusline+=%*
+    let g:syntastic_always_populate_loc_list = 1
+    let g:syntastic_auto_loc_list = 1
+    let g:syntastic_check_on_open = 1
+    let g:syntastic_check_on_wq = 0
+endif
+" }}}
+
 " }}}
 
 " Status-line {{{

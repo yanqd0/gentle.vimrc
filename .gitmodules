@@ -55,3 +55,6 @@
 [submodule "pack/Comment/start/nerdcommenter"]
 	path = pack/Comment/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "pack/Syntax-check/start/syntastic"]
+	path = pack/Syntax-check/start/syntastic
+	url = https://github.com/scrooloose/syntastic.git
