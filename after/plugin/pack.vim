@@ -200,7 +200,7 @@ try
     let s:Syntastic = g:loaded_syntastic_plugin
 catch
     let s:Syntastic = 0
-endif
+endtry
 
 if s:Syntastic
     noremap <silent> <F4> :SyntasticToggleMode<CR>
