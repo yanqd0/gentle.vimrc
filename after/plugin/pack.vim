@@ -120,9 +120,22 @@ endif
 " }}}
 
 " Move {{{
-" TODO: 2 plugins, since 2016-12-09
-" Plugin 'yanqd0/vim-easymotion'
-" Plugin 'kshenoy/vim-signature'
+
+" vim-easymotion {{{
+try
+    let s:EasyMotion = g:EasyMotion_loaded
+catch
+    let s:EasyMotion = 0
+endtry
+
+if s:EasyMotion
+    let g:EasyMotion_smartcase = 1
+    noremap <Space> <Plug>(easymotion-s2)
+endif
+" }}}
+
+" vim-signature
+
 " }}}
 
 " Input {{{
