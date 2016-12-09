@@ -49,3 +49,9 @@
 [submodule "pack/Input/start/tabular"]
 	path = pack/Input/start/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "pack/Comment/start/vim-commentary"]
+	path = pack/Comment/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/Comment/start/nerdcommenter"]
+	path = pack/Comment/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git

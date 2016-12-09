@@ -166,9 +166,11 @@ endif
 " }}}
 
 " Comment {{{
-" TODO: 2 plugins to be added, since 2016-12-09
-" Plugin 'scrooloose/nerdcommenter'
-" Plugin 'tpope/vim-commentary'
+
+" nerdcommenter
+
+" vim-commentary
+
 " }}}
 
 " Completion {{{
