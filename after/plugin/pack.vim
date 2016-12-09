@@ -205,8 +205,9 @@ endif
 " }}}
 
 " Status-line {{{
-" TODO: 1 plugin, since 2016-12-09
-" Plugin 'bling/vim-airline'
+
+" vim-airline
+
 " }}}
 
 " Git {{{

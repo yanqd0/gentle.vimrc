@@ -58,3 +58,6 @@
 [submodule "pack/Syntax-check/start/syntastic"]
 	path = pack/Syntax-check/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "pack/Status-line/start/vim-airline"]
+	path = pack/Status-line/start/vim-airline
+	url = https://github.com/bling/vim-airline.git
