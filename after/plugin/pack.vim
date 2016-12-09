@@ -174,10 +174,23 @@ endif
 " }}}
 
 " Completion {{{
-" TODO: Choose, since 2016-12-09
-" YouCompleteMe is too heavy.
-" Plugin 'ervandew/supertab'
-" Plugin 'Shougo/neocomplcache.vim'
+
+" supertab {{{
+try
+    let s:SuperTab = g:loaded_supertab
+catch
+    let s:SuperTab = 0
+endtry
+
+if s:SuperTab
+    let g:SuperTabDefaultCompletionType = '<C-x><C-p>'
+    let g:SuperTabMappingForward = '<Tab>'
+    let g:SuperTabMappingBackward = '<S-Tab>'
+endif
+" }}}
+
+" TODO: neocomplcache
+
 " }}}
 
 " Syntax-check {{{
