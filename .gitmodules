@@ -67,3 +67,6 @@
 [submodule "pack/Completion/start/supertab"]
 	path = pack/Completion/start/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "pack/Fullscreen/opt/wimproved.vim"]
+	path = pack/Fullscreen/opt/wimproved.vim
+	url = https://github.com/kkoenig/wimproved.vim.git

@@ -275,6 +275,18 @@ endif
 
 " }}}
 
+" Fullscreen {{{
+
+" wimproved.vim {{{
+if WINDOWS()
+    packadd wimproved.vim
+    noremap <silent> <F11> :WToggleFullscreen<CR>
+    noremap! <silent> <F11> <Esc>:WToggleFullscreen<CR>a
+endif
+" }}}
+
+" }}}
+
 " Golang {{{
 " TODO: 2 plugins to be added, since 2016-12-09
 " Plugin 'fatih/vim-go'
