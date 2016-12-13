@@ -7,6 +7,8 @@ filetype plugin indent on           " Plugins required!
 " Before {{{
 if filereadable(expand('~/.vim/before.vimrc'))
     source ~/.vim/before.vimrc
+elseif filereadable(expand('~/vimfiles/before.vimrc'))
+    source ~/vimfiles/before.vimrc
 endif
 " }}}
 
